@@ -7,6 +7,21 @@
 }
 
 body{
+	background: #deedff;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
+}
+
+#starter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bolder;
+	height: 100vh;
+}
+
+#starter #starter-text {
+	background: #fff;
+	padding: 10px;
 }
