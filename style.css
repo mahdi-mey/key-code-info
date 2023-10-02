@@ -22,6 +22,63 @@ body{
 }
 
 #starter #starter-text {
+    border-radius: 10px;
 	background: #fff;
 	padding: 10px;
+}
+
+#heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+	height: 100px;
+}
+
+#heading h1 {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#ascii {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 90px;
+	color: rgb(100, 98, 98);
+}
+
+#infos {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.info-box {
+	margin: 10px;
+	text-align: center;
+	width: 200px;
+	border: 1px solid #ccc;
+}
+
+.info-box h3 {
+	background: #b9e9ff;
+	border-bottom: 2px solid #b9e9ff;
+	padding: 5px;
+	font-weight: bold;
+}
+
+.info-box h2 {
+	background: #fff;
+	padding: 5px;
+}
+
+#heading,
+#ascii,
+#infos {
+	display: none;
+}
+
+#infos{
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
